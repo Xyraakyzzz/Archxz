@@ -3,7 +3,7 @@ const inquirer = require("inquirer");
 const ora = require("ora");
 function banner() {
   console.clear();
-  console.log(chalk.cyan(`
+  console.log(chalk.white(`
 ..............                                    
             ..,;:ccc,.                            
           ......''';lxO.                          
@@ -27,10 +27,15 @@ function banner() {
                                              .
 `));
 
-  console.log(chalk.green("[+] KyXzz CLI v1.0"));
-  console.log(chalk.gray("[+] Kali Linux Style Menu"));
-  console.log(chalk.gray("====================================\n"));
-}
+  console.log(
+  chalk.green("┌──(") +
+  chalk.green("root㉿kali") +
+  chalk.blue(")-[") +
+  chalk.yellow("~/KyzzzNeko") +
+  chalk.blue("]") +
+  "\n" +
+  chalk.blue("└─# ")
+);
 
 async function menu() {
   banner();
