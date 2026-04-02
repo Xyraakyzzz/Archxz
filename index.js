@@ -35,7 +35,8 @@ function banner() {
   chalk.blue("]") +
   "\n" +
   chalk.blue("└─# ")
-);
+ );
+}
 
 async function menu() {
   banner();
