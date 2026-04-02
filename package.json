@@ -1,0 +1,14 @@
+{
+  "name": "Archxz",
+  "version": "1.0.0",
+  "description": "hasil gabut bjir",
+  "main": "index.js",
+  "bin": {
+    "kyxzz": "./bin/kyxzz.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.0.0",
+    "ora": "^6.0.0"
+  }
+}
